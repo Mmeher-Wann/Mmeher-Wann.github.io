@@ -53,7 +53,7 @@ Add verified certifications here as you earn them.
 
 ## Connect With Me
 - GitHub: https://github.com/mmeher-wann
-- LinkedIn: https://www.linkedin.com/in/mmeher-wann/
+
 
 ---
 
