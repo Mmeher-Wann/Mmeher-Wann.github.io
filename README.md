@@ -28,10 +28,6 @@ My goal is to build a career in VLSI design and semiconductor engineering by str
 
 Building beginner-level Python programs to improve my problem-solving skills.
 
-### 2. EV Battery Technology
-
-Exploring ideas related to electric vehicle batteries, battery monitoring, and Battery Management Systems (BMS).
-
 ## Achievements and Activities
 
 * Participated in a hackathon.
