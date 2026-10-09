@@ -30,7 +30,7 @@
       background: linear-gradient(135deg, #0a0e17 0%, #0d1b2a 40%, #1b2838 100%);
     }
 
-    /* Soft glowing orbs (CSS only) */
+    /* Soft glowing orbs */
     .orb {
       position: fixed;
       border-radius: 50%;
@@ -198,8 +198,8 @@
 
     <section>
       <h2>Projects</h2>
-      <p><strong>1. Python Programming</strong><br>Building beginner-level Python programs to improve my problem-solving skills.</p>
-      <p style="margin-top:12px"><strong>2. EV Battery Technology</strong><br>Exploring ideas related to electric vehicle batteries, battery monitoring, and Battery Management Systems (BMS).</p>
+      <p><strong>1. Python Programming</strong><br>
+      Building beginner-level Python programs to improve my problem-solving skills.</p>
     </section>
 
     <section>
@@ -243,7 +243,6 @@
     let particles = [];
     const PARTICLE_COUNT = 70;
 
-    // Colors inspired by tech / semiconductor / circuit theme
     const colors = [
       '#00d4ff', // cyan
       '#7b2cbf', // purple
@@ -278,8 +277,6 @@
         this.y -= this.speedY;
         this.x += this.speedX;
         this.pulse += 0.03;
-
-        // gentle horizontal drift
         this.x += Math.sin(this.pulse) * 0.15;
 
         if (this.y < -20 || this.x < -30 || this.x > width + 30) {
@@ -295,7 +292,6 @@
         ctx.globalAlpha = this.opacity * 0.35;
         ctx.fill();
 
-        // solid core
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fillStyle = this.color;
@@ -315,7 +311,7 @@
     function animate() {
       ctx.clearRect(0, 0, width, height);
 
-      // subtle connecting lines between nearby particles
+      // Connecting lines between nearby particles
       for (let i = 0; i < particles.length; i++) {
         for (let j = i + 1; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
