@@ -51,8 +51,9 @@ Add verified certifications here as you earn them.
 
 ## Connect With Me
 
-* GitHub: https://github.com/YOUR-USERNAME
-* LinkedIn: Add your LinkedIn profile link here.
+## Connect With Me
+- GitHub: https://github.com/mmeher-wann
+- LinkedIn: https://www.linkedin.com/in/mmeher-wann/
 
 ---
 
